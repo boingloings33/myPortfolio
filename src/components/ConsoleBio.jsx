@@ -6,6 +6,7 @@ import {
   Button,
   Snackbar,
   IconButton,
+  Card,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import CropSquareIcon from "@mui/icons-material/CropSquare";
@@ -42,7 +43,8 @@ function ConsoleBio() {
           </IconButton>
         }
       />
-      <Stack
+      <Card
+        elevation={6}
         sx={{
           p: 2,
           pt: 6,
@@ -143,7 +145,7 @@ function ConsoleBio() {
           ["videogames", "guitar", "bartending" ]
         </Typography>
         <Typography sx={{ color: "white" }}>></Typography>
-      </Stack>
+      </Card>
     </>
   );
 }

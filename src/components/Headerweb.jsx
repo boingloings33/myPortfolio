@@ -1,4 +1,4 @@
-import { Typography, Stack } from "@mui/material";
+import { Typography, Stack, Box } from "@mui/material";
 import ConsoleBio from "./ConsoleBio";
 
 function Headerweb() {
@@ -6,7 +6,10 @@ function Headerweb() {
     <Stack spacing={2}>
       <Stack direction="row" alignItems="center" justifyContent="center">
         <Stack spacing={2}>
-          <Typography variant="h1"> > Brenden Baio</Typography>
+          <Stack direction="row" alignItems="center">
+            <Typography variant="h1"> > Brenden Baio </Typography>
+            <img src="/fire.gif" style={{ width: 80 }} />
+          </Stack>
           <Typography variant="body2">
             I love building awesome websites and learning all things programming
             :)

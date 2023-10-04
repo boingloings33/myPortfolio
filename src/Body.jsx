@@ -7,7 +7,7 @@ function Body() {
       <Typography variant="h1"> > Projects</Typography>
       <WebCard
         title="Exotico"
-        img="exotico.png"
+        img="exotico.webp"
         body="ExotiCo is a web page that I'm working on for a local reptile education company. They bring reptiles to birthday parties and schools to teach kids about nature preservation. This project is currently still in progress. "
         techStack={["React.js", "MUI", "React-Router", "Formspree"]}
         link="https://exoticocharleston.com"
