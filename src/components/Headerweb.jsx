@@ -13,7 +13,6 @@ function Headerweb() {
               > Brenden Baio
             </Typography>
             {!isMobile && <img src="/fire.gif" style={{ width: 80 }} />}
-            {isMobile && <img src="/fire.gif" style={{ width: 0 }} />}
           </Stack>
           <Typography variant="body2" sx={{ fontSize: { xs: 14, sm: 18 } }}>
             I love building awesome websites and learning all things programming
