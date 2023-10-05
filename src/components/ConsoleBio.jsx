@@ -7,13 +7,18 @@ import {
   Snackbar,
   IconButton,
   Card,
+  useTheme,
+  useMediaQuery,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import CropSquareIcon from "@mui/icons-material/CropSquare";
 import RemoveIcon from "@mui/icons-material/Remove";
 import { useState } from "react";
+
 function ConsoleBio() {
   const [open, setOpen] = useState(false);
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   function handleEmailClicked() {
     navigator.clipboard.writeText("baiolemi@gmail.com");
     setOpen(true);
@@ -83,8 +88,10 @@ function ConsoleBio() {
           "Mount Pleasant, SC"
         </Typography>
         <Typography sx={{ color: "white" }}>> Brenden.contactInfo</Typography>
-        <Stack direction="row">
-          <Typography sx={{ color: "secondary.dark", mb: 2 }}>[</Typography>
+        <Stack direction={!isMobile ? "row" : "column"} alignItems="start">
+          <Typography sx={{ color: "secondary.dark", mb: { xs: 0, sm: 2 } }}>
+            [
+          </Typography>
           <Button
             onClick={handleEmailClicked}
             sx={{

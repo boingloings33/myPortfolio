@@ -3,7 +3,7 @@ import WebCard from "./components/WebCard";
 
 function Body() {
   return (
-    <Stack sx={{ mt: 8, mb: 8 }} spacing={6}>
+    <Stack sx={{ mt: 8, mb: 8, mx: 2 }} spacing={6}>
       <Typography variant="h1"> > Projects</Typography>
       <WebCard
         title="Exotico"
