@@ -1,7 +1,9 @@
-import { Typography, Stack, Box } from "@mui/material";
+import { Typography, Stack, useTheme, useMediaQuery } from "@mui/material";
 import WebCard from "./components/WebCard";
 
 function Body() {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   return (
     <Stack sx={{ mt: 8, mb: 8, mx: { xs: 4, sm: 0 } }} spacing={6}>
       <Typography variant="h1"> > Projects</Typography>
@@ -16,7 +18,11 @@ function Body() {
         title="ScoreScore"
         img="scorescore.png"
         body="This was my summer internship project with Code and Trust. This experience has taught me what it’s like to work with a team of developers, and how to overcome many challenges and tight deadlines. "
-        techStack={["React.ts", "MUI", "React-Query", "mySQL", "Prisma"]}
+        techStack={
+          isMobile
+            ? ["React.ts", "MUI", "React-Query", "mySQL"]
+            : ["React.ts", "MUI", "React-Query", "mySQL", "Prisma"]
+        }
         link="https://score-score.codeandtrust.dev/"
       />
       <WebCard

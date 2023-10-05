@@ -39,6 +39,7 @@ function WebCard({ title, body, techStack, img, link }) {
                 {techStack.map((item) => (
                   <Typography
                     fontSize={!isMobile ? 12 : 8}
+                    fontWeight={isMobile && 700}
                     key={item}
                     sx={{
                       backgroundColor: "secondary.main",
