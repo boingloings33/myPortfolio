@@ -13,7 +13,7 @@ function WebCard({ title, body, techStack, img, link }) {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   return (
-    <Card elevation={6}>
+    <Card elevation={6} sx={{ backgroundColor: "primary.light" }}>
       <CardActionArea href={link} target="_blank">
         <Stack direction={!isMobile ? "row" : "column"}>
           <CardMedia
