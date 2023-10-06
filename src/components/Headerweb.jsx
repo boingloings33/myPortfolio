@@ -1,7 +1,7 @@
 import { Typography, Stack, useMediaQuery, useTheme } from "@mui/material";
 import ConsoleBio from "./ConsoleBio";
 
-function Headerweb() {
+function Header() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   return (
@@ -49,4 +49,4 @@ function Headerweb() {
   );
 }
 
-export default Headerweb;
+export default Header;

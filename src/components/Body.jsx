@@ -1,12 +1,14 @@
 import { Typography, Stack, useTheme, useMediaQuery } from "@mui/material";
-import WebCard from "./components/WebCard";
+import WebCard from "./WebCard";
 
 function Body() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   return (
     <Stack sx={{ mt: 8, mb: 8, mx: { xs: 4, sm: 0 } }} spacing={6}>
-      <Typography variant="h1"> > Projects</Typography>
+      <Typography variant="h1" sx={{ fontSize: { xs: 28, sm: 40 } }}>
+        > Projects
+      </Typography>
       <WebCard
         title="Exotico"
         img="exotico.webp"
