@@ -21,7 +21,7 @@ function Headerweb() {
         </Stack>
         {!isMobile && (
           <img
-            src="/me2.png"
+            src="/me2.webp"
             style={{
               objectFit: "cover",
               backgroundColor: "#F3D3BD",
