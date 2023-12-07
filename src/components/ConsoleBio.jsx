@@ -145,7 +145,8 @@ function ConsoleBio() {
         </Stack>
         <Typography sx={{ color: "white" }}>> Brenden.skills</Typography>
         <Typography sx={{ color: "secondary.light", mb: 2 }}>
-          ["JavaScript", "HTML", "CSS", "React", "MUI", "Firebase", "gitHub"]
+          ["JavaScript", "HTML", "CSS", "React", "MUI", "mongoDB", "mySQL",
+          "Node.js", "Express", "gitHub"]
         </Typography>
         <Typography sx={{ color: "white" }}>> Brenden.hobbies</Typography>
         <Typography sx={{ color: "secondary.light", mb: 2 }}>
