@@ -14,6 +14,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import CropSquareIcon from "@mui/icons-material/CropSquare";
 import RemoveIcon from "@mui/icons-material/Remove";
 import { useState } from "react";
+import ConsoleSkills from "./ConsoleSkills";
 
 function ConsoleBio() {
   const [open, setOpen] = useState(false);
@@ -143,11 +144,7 @@ function ConsoleBio() {
           </Link>
           <Typography sx={{ color: "secondary.dark" }}>]</Typography>
         </Stack>
-        <Typography sx={{ color: "white" }}>> Brenden.skills</Typography>
-        <Typography sx={{ color: "secondary.light", mb: 2 }}>
-          ["JavaScript", "HTML", "CSS", "React", "MUI", "mongoDB", "mySQL",
-          "Node.js", "Express", "gitHub"]
-        </Typography>
+        <ConsoleSkills />
         <Typography sx={{ color: "white" }}>> Brenden.hobbies</Typography>
         <Typography sx={{ color: "secondary.light", mb: 2 }}>
           ["videogames", "guitar", "bartending" ]
