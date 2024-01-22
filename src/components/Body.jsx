@@ -19,7 +19,7 @@ function Body() {
       <WebCard
         title="ScoreScore"
         img="scorescore.png"
-        body="This was my summer internship project with Code and Trust. This experience has taught me what it’s like to work with a team of developers, and how to overcome many challenges and tight deadlines. "
+        body="ScoreScore was my summer internship project with Code and Trust. This experience has taught me what it’s like to work with a team of developers, and how to overcome many challenges and tight deadlines. "
         techStack={
           isMobile
             ? ["React.ts", "MUI", "React-Query", "mySQL"]
