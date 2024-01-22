@@ -28,13 +28,6 @@ function Body() {
         link="https://score-score.codeandtrust.dev/"
       />
       <WebCard
-        title="Binches"
-        img="binches.png"
-        body="Binches is a chat app that uses firebase as a database, and react on the frontend. Users can create/join a private room where others can join and chat. "
-        techStack={["React.js", "MUI", "Firebase"]}
-        link="https://boingloings33.github.io/binches2/"
-      />
-      <WebCard
         title="movieSnacks"
         img="moviesnacks.png"
         body="movieSnacks is a react app that fetches movie data from the omd api and renders a list of movies you can select, rate, and add to your watch list. "
