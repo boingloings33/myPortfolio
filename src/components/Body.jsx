@@ -10,9 +10,16 @@ function Body() {
         > Projects
       </Typography>
       <WebCard
+        title="CHSTours"
+        img="CHSTours.webp"
+        body="CHS Tours is a full stack application that utilizes pug for server side rendering. I used MongoDB along with node/express, and bridged everything together with a REST API. The app has full functioning user signup/login capibilities, and all of the tours/information come dynamically from the database."
+        techStack={["Node.js/Express", "Pug", "RESTful API", ""]}
+        link="https://lit-temple-20750-d72cb4651e0d.herokuapp.com/"
+      />
+      <WebCard
         title="Exotico"
         img="ExotiCo-homepage.webp"
-        body="ExotiCo is a web page that I'm building on for a local reptile education company. They bring reptiles to birthday parties and schools to teach kids about nature preservation! "
+        body="ExotiCo is a web page that I built for a local reptile education company. They bring reptiles to birthday parties and schools to teach kids about nature preservation! "
         techStack={["React.js", "MUI", "React-Router", "Formspree"]}
         link="https://exoticocharleston.com"
       />
