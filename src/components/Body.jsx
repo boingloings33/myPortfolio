@@ -26,20 +26,13 @@ function Body() {
       <WebCard
         title="ScoreScore"
         img="scorescore.png"
-        body="This was my summer internship project with Code and Trust. This experience has taught me what it’s like to work with a team of developers, and how to overcome many challenges and tight deadlines. "
+        body="ScoreScore was my summer internship project with Code and Trust. This experience has taught me what it’s like to work with a team of developers, and how to overcome many challenges and tight deadlines. "
         techStack={
           isMobile
             ? ["React.ts", "MUI", "React-Query", "mySQL"]
             : ["React.ts", "MUI", "React-Query", "mySQL", "Prisma"]
         }
         link="https://score-score.codeandtrust.dev/"
-      />
-      <WebCard
-        title="Binches"
-        img="binches.png"
-        body="Binches is a chat app that uses firebase as a database, and react on the frontend. Users can create/join a private room where others can join and chat. "
-        techStack={["React.js", "MUI", "Firebase"]}
-        link="https://boingloings33.github.io/binches2/"
       />
       <WebCard
         title="movieSnacks"
