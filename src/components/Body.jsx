@@ -14,7 +14,7 @@ function Body() {
         img="CHSTours.webp"
         body="CHS Tours is a full stack application that utilizes pug for server side rendering. I used MongoDB along with node/express, and bridged everything together with a REST API. The app has full functioning user signup/login capibilities, and all of the tours/information come dynamically from the database."
         techStack={["Node.js/Express", "Pug", "RESTful API", "JavaScript"]}
-        link="https://lit-temple-20750-d72cb4651e0d.herokuapp.com/"
+        link="https://www.chs.tours/"
       />
       <WebCard
         title="Exotico"
