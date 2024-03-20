@@ -10,11 +10,11 @@ function Body() {
         > Projects
       </Typography>
       <WebCard
-        title="CHSTours"
-        img="CHSTours.webp"
-        body="CHS Tours is a full stack application that utilizes pug for server side rendering. I used MongoDB along with node/express, and bridged everything together with a REST API. The app has full functioning user signup/login capibilities, and all of the tours/information come dynamically from the database."
-        techStack={["Node.js/Express", "Pug", "RESTful API", "JavaScript"]}
-        link="https://www.chs.tours/"
+        title="Savemelee"
+        img="savemelee.png"
+        body="Savemelee is a fullstack application that utilizes nodejs, mongodb, and pug for server side rendering. The app acts as a hub for players of competitive Super Smash Bros. Melee to share their training mod files (aka'SAVESTATES'). Savestate and User information is stored in MongoDB while the raw savestate files are uploaded to AWS s3 buckets."
+        techStack={["Node.js/Express", "Pug", "RESTful API", "AWS s3"]}
+        link="https://www.savemelee.com/"
       />
       <WebCard
         title="Exotico"
