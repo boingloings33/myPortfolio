@@ -91,19 +91,20 @@ function ConsoleSkills() {
         sx={{
           color: "secondary.light",
           mr: 1,
+          "&:hover": { cursor: `url(/logoGITHUB.png), auto` },
         }}
       >
-        "Express",
+        "gitHub",
       </Typography>
       <Typography
         display="inline-block"
         sx={{
           color: "secondary.light",
           mr: 1,
-          "&:hover": { cursor: `url(/logoGITHUB.png), auto` },
+          "&:hover": { cursor: `url(/public/logoAWS.png), auto` },
         }}
       >
-        "gitHub"]
+        "AWS"]
       </Typography>
     </Box>
   );

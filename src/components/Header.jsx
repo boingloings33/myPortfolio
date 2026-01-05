@@ -15,13 +15,12 @@ function Header() {
             {!isMobile && <img src="/fire.gif" style={{ width: 80 }} />}
           </Stack>
           <Typography variant="body2" sx={{ fontSize: { xs: 14, sm: 18 } }}>
-            I love building awesome websites and learning all things programming
-            :)
+            I love building awesome websites and learning all things programming :)
           </Typography>
         </Stack>
         {!isMobile && (
           <img
-            src="/me2.webp"
+            src="/mee.webp"
             style={{
               objectFit: "cover",
               backgroundColor: "#F3D3BD",
@@ -33,7 +32,7 @@ function Header() {
         )}
         {isMobile && (
           <img
-            src="/me2.webp"
+            src="/mee.webp"
             style={{
               objectFit: "cover",
               backgroundColor: "#F3D3BD",

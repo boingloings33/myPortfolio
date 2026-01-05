@@ -24,22 +24,22 @@ function Body() {
         link="https://exoticocharleston.com"
       />
       <WebCard
+        title="Fit Physical Therapy"
+        img="fit-home.webp"
+        body="Fit Physical Therapy is a full stack scheduling application created for my senior project at Trident Tech. It utilizes Java Spring Boot and mySQL on the back end, and the standard JavaScript, HTML, CSS stack on the frontend. The application runs on an Apache Tomcat server hosted through a virtual machine on AWS."
+        techStack={["Java", "Spring Boot", "Javascript", "AWS EC2", "mySQL"]}
+        link="https://fitphysicaltherapy.fit/"
+      />
+      <WebCard
         title="ScoreScore"
         img="scorescore.png"
-        body="ScoreScore was my summer internship project with Code and Trust. This full stack application uses mySQL and node.js on the backend, and React/MUI on the frontend. This experience has taught me what it’s like to work with a team of developers, and how to overcome many challenges and tight deadlines. "
+        body="ScoreScore was my summer internship project with Code and Trust. This full stack application uses mySQL and node.js on the backend, and React/MUI on the frontend. The application allows users to keep track of scores of classic bar games, encouraging fierce competition amongst friends."
         techStack={
           isMobile
             ? ["React.ts", "MUI", "React-Query", "mySQL"]
             : ["React.ts", "MUI", "React-Query", "mySQL", "Prisma"]
         }
         link="https://score-score.codeandtrust.dev/"
-      />
-      <WebCard
-        title="movieSnacks"
-        img="moviesnacks.png"
-        body="movieSnacks is a react app that fetches movie data from the Open Movie Database API, and renders a list of movies you can select, rate, and add to your watch list. This was one of my first React projects. and realy helped me learn the fundementals within the React ecosystem."
-        techStack={["React.js", "HTML", "CSS"]}
-        link="https://boingloings33.github.io/movieSnacksApp/"
       />
     </Stack>
   );

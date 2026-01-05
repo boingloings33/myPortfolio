@@ -38,11 +38,7 @@ function ConsoleBio() {
         open={open}
         autoHideDuration={6000}
         onClose={handleClose}
-        message={
-          <Typography sx={{ color: "primary.light" }}>
-            Copied to clipboard!
-          </Typography>
-        }
+        message={<Typography sx={{ color: "primary.light" }}>Copied to clipboard!</Typography>}
         action={
           <IconButton onClick={handleClose} sx={{ color: "primary.light" }}>
             <CloseIcon />
@@ -71,28 +67,17 @@ function ConsoleBio() {
             height: 30,
           }}
         >
-          <Stack
-            spacing={1}
-            direction="row"
-            justifyContent="end"
-            sx={{ mt: 0.2, mr: 1 }}
-          >
+          <Stack spacing={1} direction="row" justifyContent="end" sx={{ mt: 0.2, mr: 1 }}>
             <RemoveIcon sx={{ color: "white" }} />
             <CropSquareIcon sx={{ color: "white" }} />
             <CloseIcon sx={{ color: "white" }} />
           </Stack>
         </Box>
-        <Typography sx={{ color: "white" }}>
-          > Brenden.currentLocation
-        </Typography>
-        <Typography sx={{ color: "secondary.light", mb: 2 }}>
-          "Mount Pleasant, SC"
-        </Typography>
+        <Typography sx={{ color: "white" }}>> Brenden.currentLocation</Typography>
+        <Typography sx={{ color: "secondary.light", mb: 2 }}>"Goose Creek, SC"</Typography>
         <Typography sx={{ color: "white" }}>> Brenden.contactInfo</Typography>
         <Stack direction={!isMobile ? "row" : "column"} alignItems="start">
-          <Typography sx={{ color: "secondary.dark", mb: { xs: 0, sm: 2 } }}>
-            [
-          </Typography>
+          <Typography sx={{ color: "secondary.dark", mb: { xs: 0, sm: 2 } }}>[</Typography>
           <Button
             onClick={handleEmailClicked}
             sx={{
@@ -113,11 +98,7 @@ function ConsoleBio() {
               "baiolemi@gmail.com",
             </Typography>
           </Button>
-          <Link
-            href="https://github.com/boingloings33"
-            underline="none"
-            target="_blank"
-          >
+          <Link href="https://github.com/boingloings33" underline="none" target="_blank">
             <Typography
               sx={{
                 color: "secondary.dark",
@@ -128,11 +109,7 @@ function ConsoleBio() {
               "gitHub",
             </Typography>
           </Link>
-          <Link
-            href="https://www.linkedin.com/in/brenden33/"
-            underline="none"
-            target="_blank"
-          >
+          <Link href="https://www.linkedin.com/in/brenden33/" underline="none" target="_blank">
             <Typography
               sx={{
                 color: "secondary.dark",
@@ -146,9 +123,7 @@ function ConsoleBio() {
         </Stack>
         <ConsoleSkills />
         <Typography sx={{ color: "white" }}>> Brenden.hobbies</Typography>
-        <Typography sx={{ color: "secondary.light", mb: 2 }}>
-          ["videogames", "guitar", "bartending" ]
-        </Typography>
+        <Typography sx={{ color: "secondary.light", mb: 2 }}>["videogames", "guitar", "bartending" ]</Typography>
         <Typography sx={{ color: "white" }}>></Typography>
       </Card>
     </>
