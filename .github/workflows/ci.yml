@@ -29,10 +29,10 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Lint
-        run: pnpm run lint --if-present
+        run: pnpm --if-present run lint 
 
       - name: Test
-        run: pnpm run test --if-present -- --watchAll=false
+        run: pnpm --if-present run test --watchAll=false
 
       - name: Build
         run: pnpm run build
