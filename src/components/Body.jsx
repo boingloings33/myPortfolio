@@ -14,7 +14,14 @@ function Body() {
         img="savemelee.png"
         body="Savemelee is a fullstack application that utilizes nodejs, mongodb, and pug for server side rendering. The app acts as a hub for players of competitive Super Smash Bros. Melee to share their training mod files (aka'SAVESTATES'). Savestate and User information is stored in MongoDB while the raw savestate files are uploaded to AWS s3 buckets."
         techStack={["Node.js/Express", "Pug", "RESTful API", "AWS s3"]}
-        link="https://www.savemelee.com/"
+        link="https://www.savemelee.rest/"
+      />
+      <WebCard
+        title="Daniel Island Jiu Jitsu"
+        img="di-jitsu.png"
+        body="Daniel Island Jiu Jitsu is a local martial arts school specializing in Brazilian Jiu Jitsu. The website provides information about classes, instructors, and events, helping students and prospective members stay informed and engaged."
+        techStack={["React", "Javascript"]}
+        link="https://dijitsu.netlify.app//"
       />
       <WebCard
         title="Exotico"
@@ -22,13 +29,6 @@ function Body() {
         body="ExotiCo is a web page that I built for a local reptile education company. I created this site using React along with Material UI for simple and clean design. This company brings reptiles to birthday parties and schools to teach kids about nature preservation! "
         techStack={["React.js", "MUI", "React-Router", "Formspree"]}
         link="https://exoticocharleston.com"
-      />
-      <WebCard
-        title="Fit Physical Therapy"
-        img="fit-home.webp"
-        body="Fit Physical Therapy is a full stack scheduling application created for my senior project at Trident Tech. It utilizes Java Spring Boot and mySQL on the back end, and the standard JavaScript, HTML, CSS stack on the frontend. The application runs on an Apache Tomcat server hosted through a virtual machine on AWS."
-        techStack={["Java", "Spring Boot", "Javascript", "AWS EC2", "mySQL"]}
-        link="https://fitphysicaltherapy.fit/"
       />
       <WebCard
         title="ScoreScore"
