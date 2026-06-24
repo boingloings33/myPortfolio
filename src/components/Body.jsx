@@ -21,7 +21,7 @@ function Body() {
         img="di-jitsu.png"
         body="Daniel Island Jiu Jitsu is a local martial arts school specializing in Brazilian Jiu Jitsu. The website provides information about classes, instructors, and events, helping students and prospective members stay informed and engaged."
         techStack={["React", "Javascript"]}
-        link="https://dijitsu.netlify.app//"
+        link="https://dijiujitsu.netlify.app/"
       />
       <WebCard
         title="Exotico"
